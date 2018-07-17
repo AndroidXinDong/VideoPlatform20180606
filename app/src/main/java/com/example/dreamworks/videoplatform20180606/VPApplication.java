@@ -13,7 +13,7 @@ import retrofit2.converter.gson.GsonConverterFactory;
  */
 
 public class VPApplication extends Application {
-    private static final String BASE_URL1 = "http://49.4.11.118:8080/";// 网络地址
+    private static final String BASE_URL1 = "http://IP地址:端口号/";// 网络地址
     public static DataImpl dataImpl;
     @Override
     public void onCreate() {
